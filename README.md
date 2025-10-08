@@ -97,8 +97,10 @@ https://www.youtube.com/watch?v=PvBp7tRgQV4:
 6. 
 
 # Видео:
-1. https://www.youtube.com/watch?v=HX0LN3Zpovk
-2. 
+1. [Linux VDS/VPS. KVM and OpenVZ virtualization. Create Website, Game Server, graphical VNC access | Pingvinus](https://www.youtube.com/watch?v=HX0LN3Zpovk)
+2. [Linux для начинающих / Урок #1 – Что такое дистрибутивы, Bash Shell и Ubuntu? | Гоша Дударь](https://www.youtube.com/watch?v=fE1VG1gpXjU)
+3. [Основные команды Linux терминала (Ubuntu, Linux Mint, Debian) | Konstantin Severin](https://www.youtube.com/watch?v=od9q1ReDdOA)
+4. 
 
 
 # Инструменты для Windows
