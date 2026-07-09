@@ -48,11 +48,7 @@
 10. Как проверять, какие права установлены
     - `ls -l ~/.ssh/`
         - **TODO** Выяснить, что значат эти команды
-11. Как удалить папку и файлы внутри
-    - `rm -rf <название папки>`
-    - ? что означают каждая из команд
-        - `rm` - скорее всего сокращение от слова **remove**
-    - https://rebrainme.com/blog/linux/kak-udalyat-fajly-i-direktorii-v-linux/
+11. 
 12. Как выполнить команду из под конкретного пользователя
     - `sudo -u <имя пользователя> {команда}`
          - `-u`, `--user=user` - run command (or edit file) as specified user name or ID
@@ -106,6 +102,12 @@
 4. `readlink -f ~/<название папки>`
     - Посмотреть абсолютный путь
 5. 
+6. Как удалить папку и файлы внутри
+    - `rm -rf <название папки>`
+    - ? что означают каждая из команд
+        - `rm` - скорее всего сокращение от слова **remove**
+    - https://rebrainme.com/blog/linux/kak-udalyat-fajly-i-direktorii-v-linux/
+
 
 
 Узнал отсюда - https://www.youtube.com/watch?v=qwopGsaNF_Q:
