@@ -90,7 +90,9 @@
     - Проверка типа файловой системы
 5. `sudo resize2fs /dev/mapper/ubuntu--vg-ubuntu--lv`
     - Если **ext4**, то расширение файловой системы под новый размер тома
-6. 
+6. `df -h /`
+    - Проверяем результат
+7. 
 
 
 Узнал отсюда - https://www.youtube.com/watch?v=qwopGsaNF_Q:
