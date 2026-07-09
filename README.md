@@ -77,7 +77,8 @@
     - `sudo apt update`
     - `sudo apt upgrade`
     - И в конце `sudo reboot now`
-19. 
+19. `lsblk` - Посмотреть, сколько всего места на диске
+20. 
 
 Узнал отсюда - https://www.youtube.com/watch?v=qwopGsaNF_Q:
 1. `pwd` - для показа текущей директории - Present Working Directory
