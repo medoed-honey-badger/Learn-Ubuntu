@@ -86,7 +86,11 @@
     - Проверить, сколько свободного места в Volume Group
 3. `sudo lvextend -l +100%FREE /dev/ubuntu-vg/ubuntu-lv`
     - Расширить логический том на всё свободное место
-4. 
+4. `df -T / | tail -1`
+    - Проверка типа файловой системы
+5. `sudo resize2fs /dev/mapper/ubuntu--vg-ubuntu--lv`
+    - Если *ext4*, то расширение файловой системы под новый размер тома
+6. 
 
 
 Узнал отсюда - https://www.youtube.com/watch?v=qwopGsaNF_Q:
