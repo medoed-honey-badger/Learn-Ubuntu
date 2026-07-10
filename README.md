@@ -110,6 +110,10 @@
         - `rm` - скорее всего сокращение от слова **remove**
     - https://rebrainme.com/blog/linux/kak-udalyat-fajly-i-direktorii-v-linux/
 
+## Виртуалка
+1. `sudo virsh list --all`
+    - Проверяем статус виртуалки в KVM
+2. 
 
 
 Узнал отсюда - https://www.youtube.com/watch?v=qwopGsaNF_Q:
