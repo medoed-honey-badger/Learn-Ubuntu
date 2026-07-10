@@ -48,29 +48,31 @@
 10. Как проверять, какие права установлены
     - `ls -l ~/.ssh/`
         - **TODO** Выяснить, что значат эти команды
-11. 
-12. Как выполнить команду из под конкретного пользователя
+11. `which ntlm_auth`
+    - Узнать, где установлена программа
+12. 
+13. Как выполнить команду из под конкретного пользователя
     - `sudo -u <имя пользователя> {команда}`
          - `-u`, `--user=user` - run command (or edit file) as specified user name or ID
      - Например `sudo -u <имя пользователя> -s` запустит терминал(shell) из под этого пользователя
          - `-s`, `--shell` - run shell as the target user; a command may also be specified
-13. Установка приложений(application)
+14. Установка приложений(application)
     - `apt-get`
     - 
-14. Если название файла начинается с точки, то это значит, что он скрытый
+15. Если название файла начинается с точки, то это значит, что он скрытый
     - Почерпнул отсюда - https://www.youtube.com/watch?v=I4ff1HCrpsg
-15. Перезагрузка сервера при сообщении "System restart required"
+16. Перезагрузка сервера при сообщении "System restart required"
     - `sudo reboot`
     - https://askubuntu.com/questions/258297/should-i-always-restart-the-system-when-i-see-system-restart-required
-16. Если используется _sh_ вместо **bash** --- from Tevdore at Telegram
+17. Если используется _sh_ вместо **bash** --- from Tevdore at Telegram
     - `echo $0` на выходе будет **-sh**
     - `sudo cat /etc/sudoers`
     - `cat /etc/passwd` и смотрим в конце строки, какая у пользователя shell
         - Например `armarserver:x:1000:1000::/home/armarserver:/bin/sh`
     - Меняем на bash с помощью `sudo visudo /etc/passwd`
-17. `tmux`
+18. `tmux`
     - https://tmuxcheatsheet.com/
-18. Обновление системы - https://askubuntu.com/a/196777
+19. Обновление системы - https://askubuntu.com/a/196777
     - `sudo apt update`
     - `sudo apt upgrade`
     - И в конце `sudo reboot now`
