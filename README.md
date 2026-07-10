@@ -113,7 +113,8 @@
 ## Виртуалка
 1. `sudo virsh start ИМЯ_ВИРТУАЛКИ`
     - Запускаем виртуалку
-2. 
+2. `sudo virsh net-dhcp-leases default`
+    - Проверяем, какой IP она получила
 3. `sudo virsh list --all`
     - Проверяем статус виртуалки в KVM
 4. 
