@@ -111,9 +111,12 @@
     - https://rebrainme.com/blog/linux/kak-udalyat-fajly-i-direktorii-v-linux/
 
 ## Виртуалка
-1. `sudo virsh list --all`
-    - Проверяем статус виртуалки в KVM
+1. `sudo virsh start ИМЯ_ВИРТУАЛКИ`
+    - Запускаем виртуалку
 2. 
+3. `sudo virsh list --all`
+    - Проверяем статус виртуалки в KVM
+4. 
 
 
 Узнал отсюда - https://www.youtube.com/watch?v=qwopGsaNF_Q:
