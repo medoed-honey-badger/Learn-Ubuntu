@@ -76,6 +76,10 @@
     - `sudo apt update`
     - `sudo apt upgrade`
     - И в конце `sudo reboot now`
+20. `date`
+    - Проверка времени 
+22. 
+    
 
 
 ## Файловая система:
